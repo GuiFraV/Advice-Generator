@@ -1,3 +1,4 @@
+// if the request is succeeded 
 var callBackGetSuccess = function(data){
     
     var dataParse = JSON.parse(data)
@@ -14,7 +15,7 @@ var callBackGetSuccess = function(data){
 
     elementAdvice.innerHTML = advice;
 }
-
+// When you click OnmyButton on body Html
 function myFunction() {
 
    console.log("Hello World");
@@ -34,3 +35,22 @@ function myFunction() {
 
 
 }
+
+// When the page is loading
+window.addEventListener("load", function() {
+
+    console.log("Hellooooo");
+
+    var url = "	https://api.adviceslip.com/advice";
+
+
+    $.get(url,callBackGetSuccess).done(function(){
+     // make callBackGetSuccess if API done
+    })
+    .fail(function(){
+        alert( "error" );
+    })
+    .always(function(){
+ 
+    });
+});

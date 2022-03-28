@@ -15,7 +15,7 @@ body {
     font-weight: 800
 }
 
-#Card{
+#Card {
     background-color: hsl(217, 19%, 38%);
     height: 364px;
     width: 540px;
@@ -27,7 +27,7 @@ body {
     position: relative;
 }
 
-#Title{
+#Title {
     height: 18px;
     width : 132px;
     font-family: 'Manrope';
@@ -40,7 +40,7 @@ body {
     text-align: center;
 }
 
-#Quotes{
+#Quotes {
     height: 144px;
     width : 444px;
     font-family: 'Manrope';
@@ -53,7 +53,7 @@ body {
     color: #CEE3E9;
 }
 
-#QuotesBis{
+#QuotesBis {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 800;
@@ -64,12 +64,12 @@ body {
     color: #CEE3E9;
 }
 
-#EndBar{
+#EndBar {
     height: 16px;
     width : 444px;
 }
 
-#Button{
+#Button {
     height: 64px;
     width: 64px;
     border-radius: 50%;
@@ -83,11 +83,37 @@ body {
     border: none;
 }
 
-#Button{
+#Button {
     box-shadow: 0 0 10px 0 #53FFAA;
     transition: box-shadow 500ms;
-  }
+}
   
-  #Button:hover {
+#Button:hover {
     box-shadow: 0 10px 50px 0 #53FFAA;
-  }
+}
+
+/* BreakPoint Conditions */
+
+@media only screen and (max-width: 600px) {
+
+
+
+    body {
+      background-color: lightblue;
+    }
+
+    #Card {
+        Width: 343px;
+        Height: 347px;
+    }
+
+    #Quotes {
+        Width: 295px;
+        Height : 132px;
+    }
+
+    #EndBar{
+        width: 275px;
+    }
+
+}
