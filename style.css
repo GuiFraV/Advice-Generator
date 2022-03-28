@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(217, 19%, 24%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800
+}
+
+#Card{
+    background-color: hsl(217, 19%, 38%);
+    height: 364px;
+    width: 540px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+#Title{
+    height: 18px;
+    width : 132px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 4.08571px;
+    color: #53FFAA;
+    text-align: center;
+}
+
+#Quotes{
+    height: 144px;
+    width : 444px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #CEE3E9;
+}
+
+#QuotesBis{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #CEE3E9;
+}
+
+#EndBar{
+    height: 16px;
+    width : 444px;
+}
+
+#Button{
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: #53FFAA;
+    position: absolute;
+    bottom: -30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+}
+
+#Button{
+    box-shadow: 0 0 10px 0 #53FFAA;
+    transition: box-shadow 500ms;
+  }
+  
+  #Button:hover {
+    box-shadow: 0 10px 50px 0 #53FFAA;
+  }

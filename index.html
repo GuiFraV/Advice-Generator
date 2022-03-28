@@ -2,27 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Advice generator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Advices 4 life ! &#128512</title>
 </head>
 <body>
 
-  Advice #<!-- Advice ID goes here -->
+  <div id="Card">
 
-  "<!-- Advice text goes here -->"
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <div id="Title"> ADVICE #<span id="Id"></span></div>
+
+    <div id="Quotes">“<span id="QuotesBis"></span>”</div>
+
+    <img id="EndBar" src="images/pattern-divider-desktop.svg" alt="pattern-divider-desktop">
+
+    <button id="Button" onclick="myFunction()">
+      <img id="Dice"  src="images/icon-dice.svg" alt="icon-dice">
+    </button>
+
   </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="script.js"></script> 
 </body>
 </html>
